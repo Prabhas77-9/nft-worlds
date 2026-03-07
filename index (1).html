@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>NFT WORLD</title>
+
+<style>
+
+body{
+background:#0d1117;
+color:white;
+font-family:Arial;
+text-align:center;
+}
+
+.header{
+display:flex;
+justify-content:space-between;
+padding:20px;
+}
+
+button{
+padding:10px 20px;
+border:none;
+border-radius:6px;
+background:#00ff9d;
+color:black;
+font-weight:bold;
+}
+
+.market{
+margin-top:40px;
+}
+
+.card{
+background:#161b22;
+padding:20px;
+border-radius:12px;
+display:inline-block;
+}
+
+img{
+border-radius:10px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="header">
+
+<h2>NFT WORLD</h2>
+
+<button onclick="connectWallet()">Connect Wallet</button>
+
+</div>
+
+<div class="market">
+
+<div class="card">
+
+<img src="https://picsum.photos/200" width="200">
+
+<h3>NFT #1</h3>
+
+<p>Price: $1</p>
+
+<button onclick="buyNFT()">Buy NFT</button>
+
+<button onclick="sellNFT()">Sell NFT</button>
+
+</div>
+
+</div>
+
+<script>
+
+function connectWallet(){
+alert("Wallet Connected");
+}
+
+function buyNFT(){
+alert("NFT Purchased");
+}
+
+function sellNFT(){
+alert("NFT Listed For Sale");
+}
+
+</script>
+
+</body>
+</html>
